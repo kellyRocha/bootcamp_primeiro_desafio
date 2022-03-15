@@ -1,0 +1,28 @@
+// Progrma para Abrir canal favorito
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("1- Abrir Netflix 2- Abrir Amazon Prime 3- Abrir HBO - Sair")
+		inteiro menu = 0
+		
+		escreva("\n" + "sua opção:")
+		leia(menu)
+		escolha( menu)
+		{
+			caso 1:
+			escreva("netflix")
+			pare
+caso 2:
+			escreva("Amazon Prime")
+			pare
+			
+			caso 3:
+			escreva("HBO")
+			pare
+			caso contrario:
+			escreva( "esquece")
+		}
+	}
+}
